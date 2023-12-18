@@ -30,11 +30,14 @@ public class UsaListaDoble
        System.out.println(lista);
        lista.borrarCualquierNodo("R");
        System.out.println(lista);
+       
        /* ----------------------------------------------------- */
-        lista.intercambiarNodos("H","R");
-        System.out.println(lista);
-        lista.buscarNodo("H");
-        System.out.println(lista);
+       lista.buscarNodo("R", "L"); 
+       System.out.println(lista);
+       lista.intercambiarNodos("H","R");
+       System.out.println(lista);
+       lista.buscarNodoClave("Z");
+       System.out.println(lista);
         /* ----------------------------------------------------- */
    }
 }
